@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Image from './Image/Image';
 
 class App extends Component {
   render() {
+
     return (
+
+      // state = {
+      // images: [ "https://imgur.com/co0Wj8n" ,
+      //             "https://imgur.com/zKRzMdW",
+      //             "https://imgur.com/SMOPTSo",
+      //         ],
+      // },
+
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h3>Navbar up top</h3>
+        <h5>Hoverable grid pics, before and afters?</h5>
+        <Image />
       </div>
     );
   }
